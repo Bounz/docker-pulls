@@ -69,6 +69,6 @@ services:
      ports:
        - 9170:9170
      environment:
-       - "IMAGES=fluent/fluentd"
+       - "IMAGES=bounz/homegenie"
      networks:
        - back-tier
